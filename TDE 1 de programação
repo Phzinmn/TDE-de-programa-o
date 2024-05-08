@@ -1,0 +1,84 @@
+#include <stdio.h>
+int main()
+{
+ // int N1, N2, SOMA;
+
+  // printf("Digite o 1° número:");
+  // scanf("%d", &N1);
+  // printf("Digite o 2° número:");
+  // scanf("%d", &N2);
+  // SOMA=(N1 + N2);
+  // printf("A soma dos dois número e: %d", SOMA);
+
+
+  // int X1;
+  // int dobro;
+  // int triplo;
+  // float metade;
+  // int tudo;
+  // printf("Qual o primeiro número?");
+  // scanf("%d", &X1);
+  // dobro= (X1 * 2);
+  // triplo= (X1 * 3);
+  // metade= triplo /2;
+  // tudo=(metade * 3);
+  // printf("O dobro do seu numero é: %d /n o triplo do seu numero e:%d /n a metade do triplo e: %f /n o triplo da metade e: %d", dobro, triplo, metade, tudo);
+
+
+
+
+  // int area;
+  // int lado;
+  // printf("Qual e o lado desse quadrado?");
+  // scanf("%d", &lado);
+  // area= lado * lado;
+  // printf("A area desse quadrado é:%d", area);
+
+
+
+
+  // int saldo;
+  // int dep;
+  // int rep;
+  // int saldoatual;
+  // printf("Qual o saldo atual da conta?");
+  // scanf("%d", &saldo);
+  // printf("Qual e o valor do deposito?");
+  // scanf("%d", &dep);
+  // printf("Quanto pretende retirar?");
+  // scanf("%d", &rep);
+  // saldoatual= saldo + dep - rep;
+  // printf("O valor total na conta é: %d", saldoatual);
+
+
+
+
+
+  // float saldo, taxa; 
+  // int saldo_atual;
+  // printf("Digite o Saldo da Conta:");
+  // scanf("%f", &saldo);
+  // printf("Digite a Taxa de Rendimento mensal (em %):");
+  // scanf("%f", &taxa);
+  // taxa=taxa/100;
+  // saldo_atual=(saldo*taxa)+saldo;
+  // printf("Seu saldo atual é: R$ %d", saldo_atual);  
+
+
+
+
+  int salario;
+  int desconto;
+  int liquido;
+
+  printf("Digite seu Salario:");
+  scanf("%d", &salario);
+  desconto=salario*0.05;
+  liquido=salario-desconto;
+  printf("\n O valor descontado foi de R$:%d", desconto);
+  printf("\n O seu salario com desconto e de R$:%d", liquido);
+
+
+
+  return 0;
+}
